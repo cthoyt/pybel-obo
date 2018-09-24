@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""Conversion of contextualized BEL relations to use the OBO Relation Ontology (RO)."""
+"""PyBEL-OBO converts BEL graphs' relations to the OBO relation ontology (RO)."""
 
 from pybel_obo.convert import convert

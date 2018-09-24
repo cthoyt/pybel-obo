@@ -1,3 +1,3 @@
 PyBEL-OBO
 =========
-Converter from BEL to TSV with nice RO terms
+PyBEL-OBO converts BEL graphs' relations to the OBO relation ontology (RO).

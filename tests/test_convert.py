@@ -28,13 +28,14 @@ def relationship(ro_id: str, label: str) -> Mapping[str, str]:
 
 
 class TestConversion(unittest.TestCase):
-    """Test several conversions"""
+    """Test several conversions."""
 
     def setUp(self) -> None:
         """Set up each test with an instance of a BEL graph."""
         self.graph = BELGraph()
 
     def convert(self, source: BaseEntity, target: BaseEntity, key: str) -> Mapping[str, str]:
+        """Wrap conversion on this test case's graph."""
         return convert(self.graph, source, target, key)
 
     def test_regulates_transport(self):
