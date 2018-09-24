@@ -2,4 +2,4 @@
 
 """PyBEL-OBO converts BEL graphs' relations to the OBO relation ontology (RO)."""
 
-from pybel_obo.convert import convert
+from pybel_obo.convert import get_relationship
