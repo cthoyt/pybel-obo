@@ -13,11 +13,11 @@ stages:
 jobs:
   include:
     - stage: lint
-    - env: TOXENV=flake8
+      env: TOXENV=flake8
     - env: TOXENV=xenon
     - env: TOXENV=pyroma
     - stage: test
-    - env: TOXENV=py
+      env: TOXENV=py
 
 matrix:
   allow_failures:
